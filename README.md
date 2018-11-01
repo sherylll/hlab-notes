@@ -12,6 +12,7 @@ Use the key to access zeus:
 - add `source /home/cad/xilinx/Vivado-2017.2/Vivado/2017.2/settings64.sh` to the file
     - try to use same version of the Vivado software
 - type `vivado` or `vivado_hls` to bring up GUI
+- in Vivado use `xcku095-ffvb2104-1-c` as default part
 
 ### Resources
 - Vivado HLS tutorial & User Guide
