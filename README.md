@@ -18,5 +18,5 @@ Use the key to access zeus:
 - Vivado HLS tutorial & User Guide
 
 ### Trouble shooting
-- problem with Vivado license
-    - delete some file (?)
+- when HLS GUI can not be brought up
+    - 'sudo rm -rf .vivado_hls/2017.2/'
