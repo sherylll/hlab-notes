@@ -14,9 +14,12 @@ Use the key to access zeus:
 - type `vivado` or `vivado_hls` to bring up GUI
 - in Vivado use `xcku095-ffvb2104-1-c` as default part
 
+### TODO
+There is currently no full automation for project setup, a manual copy-paste is needed. Designed HLS modules have to be imported as IPs and added under `warp`
+ 
 ### Resources
 - Vivado HLS tutorial & User Guide
 
 ### Trouble shooting
 - when HLS GUI can not be brought up
-    - 'sudo rm -rf .vivado_hls/2017.2/'
+    - `sudo rm -rf .vivado_hls/2017.2/`
