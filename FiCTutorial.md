@@ -43,5 +43,3 @@ ringc: ring transfer check program with 4boards. (flat2lback.bin)
 sudo ./ringc ring.dat test0.dat   fic08 id=0
 sudo ./ringc 1to2.dat test0.dat   fic07, fic05
 sudo ./ringc 2to1.dat test0.dat   fic06
-
-sort: simple sort program with 1 board (sort.bin)
