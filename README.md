@@ -19,6 +19,7 @@ There is currently no full automation for project setup, a manual copy-paste is 
  
 ### Resources
 - Vivado HLS tutorial & User Guide
+- Hunga's tutorials can be found under `/asap/fic/proj_hunga/pr_base/rasbpi`
 
 ### Trouble shooting
 - when HLS GUI can not be brought up
