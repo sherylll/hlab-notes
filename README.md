@@ -26,6 +26,9 @@ There is currently no full automation for project setup, a manual copy-paste is 
     - `sudo rm -rf .vivado_hls/2017.2/`
 
 ## RETURNN
+### Tensorflow
+Used conda + python 3.6 + tensorflow with GPU support
+
 ### GPU Usage
 `ssh -XY nova`
 - To switch CUDA version, add the following to `.bashrc`:
