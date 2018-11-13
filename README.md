@@ -31,12 +31,15 @@ Used conda + python 3.6 + tensorflow with GPU support
 
 ### GPU Usage
 `ssh -XY nova`
-- To switch CUDA version, add the following to `.bashrc`:
+- To switch CUDA version, modify `PATH`:
 ```
 export PATH=${PATH}:/usr/local/cuda-9.0/bin
 export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 ```
+However it is easier to install a different version of tf than cuda, see version mapping:
+https://www.tensorflow.org/install/source#linux
+
 ### Compiling error when using nvcc
 Solved by adding `-DNDEBUG` to the compiling command.
