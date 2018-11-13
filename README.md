@@ -24,3 +24,16 @@ There is currently no full automation for project setup, a manual copy-paste is 
 ### Trouble shooting
 - when HLS GUI can not be brought up
     - `sudo rm -rf .vivado_hls/2017.2/`
+
+## RETURNN
+### GPU Usage
+`ssh -XY nova`
+- To switch CUDA version, add the following to `.bashrc`:
+```
+export PATH=${PATH}:/usr/local/cuda-9.0/bin
+export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
+```
+### Compiling error when using nvcc
+Solved by adding `-DNDEBUG` to the compiling command.
