@@ -14,8 +14,12 @@ Use the key to access zeus:
 - type `vivado` or `vivado_hls` to bring up GUI
 - in Vivado use `xcku095-ffvb2104-1-c` as default part
 
+### Generate bitstream
+- find bitfile under `runs/imp/xxx.bit`
+- run `bitgen.tcl` in vivado CLI
+
 ### TODO
-There is currently no full automation for project setup, a manual copy-paste is needed. Designed HLS modules have to be imported as IPs and added under `warp`
+There is currently no full automation for project setup, a manual copy-paste is needed. Designed HLS modules have to be imported as IPs and added under `wrap`
  
 ### Resources
 - Vivado HLS tutorial & User Guide
@@ -43,3 +47,6 @@ https://www.tensorflow.org/install/source#linux
 
 ### Compiling error when using nvcc
 Solved by adding `-DNDEBUG` to the compiling command.
+
+### trained model
+Trained models can be found under `/tmp/hikari/crnn`, can be configure in `.config` file.
