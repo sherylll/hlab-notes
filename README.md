@@ -50,3 +50,9 @@ Solved by adding `-DNDEBUG` to the compiling command.
 
 ### trained model
 Trained models can be found under `/tmp/hikari/crnn`, can be configure in `.config` file.
+
+## System
+When login cannot be performed on Atlantis:
+- login from another machine
+- `sudo gedit /lib/systemd/system/systemd-logind.service` and comment out `IPAddressDeny=any`
+- `sudo systemctl daemon-reload`
