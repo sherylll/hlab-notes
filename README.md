@@ -1,5 +1,9 @@
 # Notes for Getting Started in HLab
 
+## Playing with Zedboard
+`sudo screen /dev/ttyACM0 115200` to log into linux
+`reset` might fix random character issues
+
 ## FiC 
 ### Generate SSH Keys
 ...
